@@ -1,0 +1,9 @@
+:root {
+  --bg-calc: #000;
+  --bg-display: #000;
+  --bg-button-tools: #808080;
+  --bg-button-operations: #F7971E;
+  --bg-button-numbers: #434343;
+  --txt-calc: #fff;
+  --txt-button-tools: #000;
+}

@@ -1,0 +1,72 @@
+@import url(../css/custom-properties.css);
+@import url(../css/reset-properties.css);
+
+.container {
+  background-color: var(--bg-calc);
+  color: var(--txt-calc);
+  font-family: 'Roboto';
+  width: 16rem;
+  height: 40rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  margin: auto;
+  border-radius: 3rem;
+  padding: 1.5rem;
+}
+
+.row__display {
+  background-color: var(--bg-display);
+  width: 100%;
+  height: 15rem;
+  position: relative;
+}
+
+.row__display--text {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  font-size: 5rem;
+  font-weight: 300;
+  padding: 1rem;
+}
+
+.row__button {
+  display: flex;
+  align-items: center;
+}
+
+.button {
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: .5rem .3rem;
+}
+
+.button--tool {
+  background-color: var(--bg-button-tools);
+  color: var(--txt-button-tools);
+}
+
+.button--operation {
+  background-color: var(--bg-button-operations);
+  font-size: 2rem;
+}
+
+.button--number {
+  background-color: var(--bg-button-numbers);
+}
+
+.cero {
+  justify-content: left;
+  padding: 0 1rem;
+  flex-grow: 2;
+  border-radius: 2rem;
+}
